@@ -1,4 +1,4 @@
-# 🚀 Nurothon AI - Intelligent SMB Automation Platform
+# 🚀 Bharat Biz Agent - Intelligent SMB Automation Platform
 
 > **Transforming Small Business Operations with Conversational AI**
 
@@ -46,7 +46,7 @@ Small and Medium Businesses (SMBs) in India face critical operational challenges
 
 ## 💡 Solution Overview
 
-**Nurothon AI** is an intelligent, conversational business automation platform that enables SMB owners to manage their entire business through natural language - in **English, Hindi, or Hinglish**.
+**Bharat Biz Agent** is an intelligent, conversational business automation platform that enables SMB owners to manage their entire business through natural language - in **English, Hindi, or Hinglish**.
 
 ### **Core Innovation**
 
@@ -242,30 +242,13 @@ User Message
 #### **Windows (PowerShell)**
 ```powershell
 # 1. Clone repository
-git clone https://github.com/yourusername/nurothon-ai.git
-cd nurothon-ai
+git clone https://github.com/Subrat090605/bharat-agent.git
+cd bharat-agent
 
-# 2. Setup environment
-Copy-Item .env.production .env
-notepad .env  # Update POSTGRES_PASSWORD and SECRET_KEY
+# 2. Start the application
+docker compose up --build
 
-# 3. Deploy
-.\deploy.ps1
-```
-
-#### **Linux/Mac (Bash)**
-```bash
-# 1. Clone repository
-git clone https://github.com/yourusername/nurothon-ai.git
-cd nurothon-ai
-
-# 2. Setup environment
-cp .env.production .env
-nano .env  # Update POSTGRES_PASSWORD and SECRET_KEY
-
-# 3. Deploy
-chmod +x deploy.sh
-./deploy.sh
+# 3. Access the application at http://localhost
 ```
 
 ### **Access Application**
@@ -569,8 +552,8 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/nurothon-ai.git
-cd nurothon-ai
+git clone https://github.com/Subrat090605/bharat-agent.git
+cd bharat-agent
 
 # Create virtual environment
 python -m venv venv
@@ -598,7 +581,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Team
 
-**Nurothon AI** - Built with ❤️ for Indian SMBs
+**Bharat Biz Agent** - Built with ❤️ for Indian SMBs
 
 - **AI/NLP Engineering** - Intent detection, entity extraction, multi-language support
 - **Backend Development** - FastAPI, PostgreSQL, business logic
@@ -619,10 +602,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact & Support
 
-- **Email**: support@nurothon.ai
-- **GitHub Issues**: [Report a bug](https://github.com/yourusername/nurothon-ai/issues)
-- **Documentation**: [Full Docs](https://docs.nurothon.ai)
-- **Demo**: [Live Demo](https://demo.nurothon.ai)
+- **GitHub Issues**: [Report a bug](https://github.com/Subrat090605/bharat-agent/issues)
+- **Repository**: [View on GitHub](https://github.com/Subrat090605/bharat-agent)
 
 ---
 
@@ -630,8 +611,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ```bash
 # Clone and deploy in 3 commands
-git clone https://github.com/yourusername/nurothon-ai.git
-cd nurothon-ai
+git clone https://github.com/Subrat090605/bharat-agent.git
+cd bharat-agent
 ./deploy.sh  # or deploy.ps1 on Windows
 ```
 
@@ -644,8 +625,8 @@ cd nurothon-ai
 ### **Built for Indian SMBs. Powered by AI. Ready for Production.**
 
 [![Deploy Now](https://img.shields.io/badge/Deploy-Now-success?style=for-the-badge)](DOCKER_QUICK_START.md)
-[![View Demo](https://img.shields.io/badge/View-Demo-blue?style=for-the-badge)](http://demo.nurothon.ai)
 [![Read Docs](https://img.shields.io/badge/Read-Docs-orange?style=for-the-badge)](DOCKER_DEPLOYMENT_GUIDE.md)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/Subrat090605/bharat-agent)
 
 **⭐ Star us on GitHub if this project helped you!**
 
