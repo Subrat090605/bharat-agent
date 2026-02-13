@@ -248,7 +248,7 @@ cd bharat-agent
 # 2. Start the application
 docker compose up --build
 
-# 3. Access the application at http://localhost
+# 3. Access the application at http://localhost3000
 ```
 
 ### **Access Application**
@@ -613,7 +613,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 # Clone and deploy in 3 commands
 git clone https://github.com/Subrat090605/bharat-agent.git
 cd bharat-agent
-./deploy.sh  # or deploy.ps1 on Windows
+docker compose up --build
+Access the application at http://localhost3000
 ```
 
 **Transform your business operations in under 5 minutes!**
