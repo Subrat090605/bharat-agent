@@ -332,24 +332,7 @@ AI Response:
    📥 Download: invoice_1_20260202.pdf
 ```
 
-### **Scenario 5: OCR Bill Upload**
-
-```
-User: [Uploads bill image]
-
-AI Response:
-📸 Bill processed successfully!
-   Extracted Items:
-   • 2x Laptop - ₹90,000
-   • 1x Mouse - ₹500
-   • 1x Keyboard - ₹1,200
-   
-   Total: ₹91,700
-   
-   ✅ Order created: #3
-```
-
-### **Scenario 6: Multi-language Inventory Query**
+### **Scenario 5: Multi-language Inventory Query**
 
 ```
 User: "Kitne keyboard available hai?"
