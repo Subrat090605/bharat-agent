@@ -335,7 +335,7 @@ AI Response:
 ### **Scenario 5: Multi-language Inventory Query**
 
 ```
-User: "Kitne keyboard available hai?"
+User: "Stock of Keyboard"
 
 AI Response:
 📦 Keyboard Stock:
